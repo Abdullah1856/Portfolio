@@ -74,6 +74,21 @@ header {
     max-width: 1200px;
 }
 
+/*
+
+@media (min-width: 992px) {
+    header {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        max-width: 720px;
+    }
+}
+*/
+
 a.navbar-brand::after {
     content: '.';
     font-size: 40px;
@@ -90,7 +105,7 @@ a.navbar-brand::after {
 }
 
 /* Body-Sections */
-.row{
+.row {
     margin-top: 120px;
 }
 
@@ -175,31 +190,60 @@ p.about-description {
 
 /* Wave-icon */
 .wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 1.5s;        /* Change to speed up or slow down */
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 1.5s;
+    /* Change to speed up or slow down */
     font-size: 26px;
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
     display: inline-block;
-  }
-  
-  @keyframes wave-animation {
-      0% { transform: rotate( 0.0deg) }
-     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-     20% { transform: rotate(-8.0deg) }
-     30% { transform: rotate(14.0deg) }
-     40% { transform: rotate(-4.0deg) }
-     50% { transform: rotate(10.0deg) }
-     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-    100% { transform: rotate( 0.0deg) }
-  }
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
 
 /* Section-2 */
-.sec-3{
+.sec-3 {
     width: 40%;
 }
 
-.sec-4{
+.sec-4 {
     width: 60%;
 }
 
@@ -230,6 +274,50 @@ p.about-description.about-list {
     display: -webkit-inline-box;
 }
 
-.sec-5{
+.sec-5,
+.sec-9 {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec-6,
+.sec-7,
+.sec-8 {
+    background-color: #1a1a1a !important;
+    width: 48%;
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.sec-6 {
+    margin-right: 15px;
+}
+
+.sec-7 {
+    margin-left: 15px;
+}
+
+
+.year-edu {
+    color: #ffbd39;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.edu-name {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+p.edu-txt {
+    font-size: 17px;
+    color: #858585;
+}
+
+.edu-txt-2 {
+    font-size: 14px;
+    color: #858585;
+    font-weight: 500;
 }
