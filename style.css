@@ -201,6 +201,18 @@ p.about-description {
 	width: 60%;
 }
 
+@media only screen and (max-width:1399px) and (min-width: 400px) {
+	.col-md-6 img {
+		margin-right: initial;
+	}
+}
+
+@media only screen and (max-width:767px) and (min-width: 526px) {
+.button2 {
+    margin-left: 5px;
+}
+}
+
 .sec-2 {
 	width: 40%;
 	margin: auto;
