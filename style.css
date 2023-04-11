@@ -189,6 +189,12 @@
   .txt-color {
 	color: #ffbd39;
   }
+
+  @media only screen and (max-width:991px) and (min-width: 1px)  {
+	h1 {
+		font-size: 35px !important;
+	}
+	}
   
   h1 {
 	color: #fff;
@@ -860,6 +866,29 @@
 	font-family: Roboto;
 	margin-top: 120px;
   }
+
+  
+@media only screen and (max-width: 480px) and (min-width: 1px)  {
+	.sec-projects img {
+		height: 100% !important;
+	}
+	}
+
+	@media only screen and (max-width: 522px) and (min-width: 1px)  {
+	span.holder-about {
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 500px) and (min-width: 1px)  {
+	.text-projects p {
+		font-size: 13px;
+	}
+	
+	.item-projects .button-project {
+		font-size: 11px !important;
+	}
+	}
   
   .container-projects {
 	display: flex;
@@ -1153,6 +1182,23 @@
 	color: #000;
   }
   
+  @media only screen and (max-width: 450px) and (min-width: 1px)  {
+	.contact-info {
+		padding-right: 10px !important;
+	}
+	.contact-links {
+		width: 300px !important;
+		max-width: 250px !important;
+	}
+	h3.year-edu {
+		font-size: 20px;
+	}
+	.edu-name {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	}
+
   .contact-info {
 	display: flex;
 	flex-direction: column;
