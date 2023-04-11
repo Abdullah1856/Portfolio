@@ -122,6 +122,12 @@ a.navbar-brand::after {
 }
 
 /* Body-Sections */
+@media only screen and (max-width: 767px) and (min-width: 640px) {
+.container, .container-sm {
+		max-width: 600px;
+	}
+}
+
 .row {
 	margin-top: 120px;
 }
