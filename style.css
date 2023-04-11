@@ -36,6 +36,22 @@
 	bottom: 4px;
 }
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(media/Icon-Toggle.png) !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(0 0 0);
+    border-color: rgb(0 0 0);
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(0 0 0);
+    border-color: rgb(0 0 0);
+}
+
+
+
 /* Body-Left/Right-Sapcing */
 .whole-body {
 	margin-right: auto;
