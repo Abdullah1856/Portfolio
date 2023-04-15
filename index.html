@@ -170,10 +170,6 @@
                            <span class="progressbar progressblue" id="progress-css"></span>
                         </div>
                      </li>
-                  </ul>
-               </div>
-               <div class="col-md-6 sec-11">
-                  <ul class="skills-bar-container first-sec">
                      <li>
                         <div class="progressbar-title">
                            <h3>Bootstrap</h3>
@@ -183,6 +179,11 @@
                            <span class="progressbar progresspurple" id="progress-boostrap"></span>
                         </div>
                      </li>
+                  </ul>
+               </div>
+               <div class="col-md-6 sec-11">
+                  <ul class="skills-bar-container first-sec">
+                     
                      <li>
                         <div class="progressbar-title">
                            <h3>JavaScript</h3>
@@ -208,6 +209,24 @@
                         </div>
                         <div class="bar-container">
                            <span class="progressbar progresspurple" id="progress-server"></span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="progressbar-title">
+                           <h3>Photoshop</h3>
+                           <span class="percent" id="photoshop-pourcent"></span>
+                        </div>
+                        <div class="bar-container">
+                           <span class="progressbar progresspurple" id="progress-photoshop"></span>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="progressbar-title">
+                           <h3>Figma</h3>
+                           <span class="percent" id="figma-pourcent"></span>
+                        </div>
+                        <div class="bar-container">
+                           <span class="progressbar progressblue" id="progress-figma"></span>
                         </div>
                      </li>
                   </ul>
@@ -396,10 +415,12 @@
                 "boostrap": "80%",
                 "javascript": "20%",
                 "php": "5%",
-                "server": "55%"
+                "server": "55%",
+                "photoshop": "40%",
+                "figma": "40%"
             };
             
-            var multiply = 8;
+            var multiply = 10;
             
             $.each(lang, function (language, pourcent) {
             
