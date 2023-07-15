@@ -319,7 +319,12 @@
 	width: 40%;
 	margin: auto;
   }
-  
+
+  /* Form-Icon */
+.icon-upwork:before {
+    content: url(https://api.iconify.design/simple-icons/upwork.svg?color=%23666&width=26&height=26);
+}
+
   /* Wave-icon */
   .wave {
 	animation-name: wave-animation;
