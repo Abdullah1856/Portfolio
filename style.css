@@ -333,9 +333,13 @@
 .contact-links {
     width: 330px !important;
 }
+
+.contact-links a {
+    float: right !important;
+}	
 }
 
-@media only screen and (max-width: 450px) and (min-width: 300px)  {
+@media only screen and (max-width: 450px) and (min-width: 1px)  {
 .contact-info .fab {
     padding-left: 1rem !important;
 }
@@ -343,6 +347,10 @@
 .contact-links {
     width: 330px !important;
 }
+
+.contact-links a {
+    float: right !important;
+}	
 }
 
   /* Wave-icon */
